@@ -1,0 +1,17 @@
+train_net: "/Users/tianchuliang/documents/gt_acad/7616spring16/hwsoln/hw4/nets/my_sunset_net/my_sunset_net_train_cmdline.prototxt"
+test_net: "/Users/tianchuliang/documents/gt_acad/7616spring16/hwsoln/hw4/nets/my_sunset_net/my_sunset_net_test_cmdline.prototxt"
+test_iter: 50
+test_interval: 5
+base_lr: 0.001
+display: 5
+max_iter: 100000
+lr_policy: "step"
+gamma: 0.1
+momentum: 0.9
+weight_decay: 0.0005
+stepsize: 150
+snapshot: 100
+snapshot_prefix: "/Users/tianchuliang/documents/gt_acad/7616spring16/hwsoln/hw4/nets/my_sunset_net/my_sunset_net_cmdline"
+solver_mode: CPU
+iter_size: 1
+type: "SGD"
